@@ -3,7 +3,7 @@ name: Scheduled App Run
 on:
   schedule:
     # Runs at 05:00 UTC (08:00 in Israel Time) every day
-    - cron:  '0 5 * * *'
+    - cron:  '0 6 * * *'
   workflow_dispatch:
 
 jobs:
